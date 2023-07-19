@@ -4,6 +4,11 @@
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .header {
   background-color: #1f2937;
 }
@@ -28,9 +33,8 @@
 }
 
 .link-list a {
-  color: #e5e7eb;
   font-size: 18px;
-  text-decoration: none;
+  color: #e5e7eb;
 }
 
 .information {
@@ -38,6 +42,7 @@
   display: flex;
   padding: 0 20%;
   gap: 20px;
+  padding-bottom: 64px;
 }
 
 .title {
@@ -47,6 +52,27 @@
 .title h1 {
   font-size: 48px;
   font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: none;
+}
+
+.sign-up:hover {
+  background-color: #3171d8;
+  cursor: grab;
 }
 
 .image {
